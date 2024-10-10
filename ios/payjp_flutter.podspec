@@ -22,7 +22,7 @@ A Flutter plugin for PAY.JP Mobile SDK.
   s.static_framework = true
   s.dependency 'PAYJPFlutterCore', "~> #{payjp_sdk['ios']}"
   s.dependency 'CardIO', '~> 5.4.1'
-  s.dependency 'GoogleUtilities/AppDelegateSwizzler', '~> 7.2'
+  s.dependency 'GoogleUtilities/AppDelegateSwizzler', '~> 8.0'
   s.dependency 'Flutter'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
 
